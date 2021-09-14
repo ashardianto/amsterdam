@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.typography-heading {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+    padding: 10px;
+}
+
+.typography-heading2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color:black;
+}
+
+.typography-heading3 {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.section-news,
+.section-destination,
+.section-welcome-culinary,
+.section-contact {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-welcome {
+    background-image: url('../travel.page/img/amsterdam-bg.jpg');
+}
+
+.section-welcome > h1 {
+    padding: 36px 24px 0px;
+    color: white;
+}
+
+.section-news {
+    margin-top: 35px;
+}
+ 
+ .section-news .news-content {
+     height: 600px;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding: 5px;
+ }
+ 
+ .section-news .news-content [class*="content-"] {
+     height: 500px;
+     flex-basis: calc( 32% - 30px );
+     list-style: none;
+     padding: 10px;
+ }
+
+ .news-content > img {
+     object-fit: cover;
+ }
+
+.section-welcome,
+.section-welcome-culinary {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.section-welcome-culinary {
+    height: 400px;
+    background-image: url('../travel.page/img/food-bg.jpg');
+}
+
