@@ -101,7 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/zaanse.jpg);
+    background-image: url(img/zaanse.jpg);
     background-size: cover;
     background-position: center;
     top: 0;
@@ -154,7 +154,7 @@ body {
 .section-city {
     padding: 0px 24px;
     text-align: center;
-    background-image: url(/img/amsterdam-night.jpg);
+    background-image: url(img/amsterdam-night.jpg);
     background-size: cover;
     background-position: center;
     top: 0;
@@ -177,7 +177,7 @@ body {
 .section-activities {
     padding: 0px 24px;
     text-align: center;
-    background-image: url(/img/bike-couple.jpg);
+    background-image: url(img/bike-couple.jpg);
     background-size: cover;
     background-position: center;
     top: 0;
@@ -199,7 +199,7 @@ body {
 .section-culinary {
     padding: 0px 24px;
     text-align: center;
-    background-image: url(/img/food-bg.jpg);
+    background-image: url(img/food-bg.jpg);
     background-size: cover;
     background-position: center;
     top: 0;
