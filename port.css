@@ -1,0 +1,230 @@
+:root {
+    --darkblue: #17212E;
+    --darkred: #6E081F;
+    --red: #732B2E;
+    --darkbrown: #936F62;
+    --cream: #E4CCC0;
+    --turqoise: #C5D5D6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* NAV */
+
+ul {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+    color: var(--cream);
+}
+  
+nav {
+    font-weight: 500;
+}
+  
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0);
+    z-index: 10;
+}
+  
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+  
+.nav-list a {
+    display: block;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+  
+.nav-list a:hover {
+    background: var(--darkred);
+}
+
+/* BODY */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.typography-heading {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+.typography-heading2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+.typography-heading3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+/* MAIN */
+
+/*WELCOME SECTION*/
+
+.section-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/zaanse.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 687px;
+    width: 100%;
+}
+
+.welcome-wrapper {
+    position: relative;
+    height: 500px;
+}
+
+.welcome-typography {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 0px 36px;
+}
+
+.welcome-typography > h1 {
+    margin-top: 400px;
+    margin-bottom: 7px;
+}
+
+/*INTRO SECTION*/
+
+.section-intro {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 24px;
+}
+
+.sub-heading {
+    border-top: 3px solid var(--darkred);
+    border-bottom: 3px solid var(--darkred);
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: var(--darkblue);
+}
+
+/*CITY SECTION*/
+
+.section-city {
+    padding: 0px 24px;
+    text-align: center;
+    background-image: url(/img/amsterdam-night.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 568px;
+    width: 100%;
+}
+
+.city-caption {
+    margin-bottom: 24px;
+    color: var(--turqoise);
+}
+
+.city-caption, .culinary-caption > h2, h3 {
+    padding-top: 26px;
+}
+
+/*SECTION ACTIVITIES*/
+
+.section-activities {
+    padding: 0px 24px;
+    text-align: center;
+    background-image: url(/img/bike-couple.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 568px;
+    width: 100%;
+}
+
+.activities-caption {
+    color: var(--turqoise);
+}
+
+.activities-caption > h2 {
+    padding-top: 74px;
+}
+
+/* SECTION CULINARY */
+
+.section-culinary {
+    padding: 0px 24px;
+    text-align: center;
+    background-image: url(/img/food-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 320px;
+    width: 100%;
+}
+
+.culinary-caption {
+    color: var(--darkblue);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+/* NEWS SECTION */
+
+.section-news {
+    padding: 0px 24px;
+    text-align: center;
+    height: 362px;
+}
+
+.news-caption {
+    color: var(--darkblue);
+    padding-top: 48px;
+}
