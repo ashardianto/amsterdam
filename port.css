@@ -30,25 +30,51 @@ a {
   
 nav {
     font-weight: 500;
+    height: 50px;
 }
   
 .nav {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: black;
     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0);
     z-index: 10;
 }
+
+.nav,
+.nav-list {
+    background: black;
+}
+
+.nav label {
+    color: white;
+}
+
+.nav label {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav .nav-input {
+    display: none;
+}
+
+.nav .nav-input:checked ~ .nav-list {
+    display: block;
+}
   
 .nav-list {
-    display: flex;
-    margin-right: 2rem;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: none;
 }
   
 .nav-list a {
@@ -61,6 +87,20 @@ nav {
   
 .nav-list a:hover {
     background: var(--darkred);
+}
+
+@media screen and (min-width: 768px) {
+    .nav label {
+        display: none;
+    }
+
+    .nav-list {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        padding-right: 20px;
+        top: auto;
+    }
 }
 
 /* BODY */

@@ -7,20 +7,23 @@
         <link rel="stylesheet" href="port.css">
     </head>
 
-    <header>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="#section-intro">About</a></li>
-                <li><a href="#section-city">Destination</a></li>
-                <li><a href="#section-todo">Activities</a></li>
-                <li><a href="#section-news">News</a></li>
-                <li><a href="#section-contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <body>
+    <body>
+        <header>
+            <nav class="nav">
+                <label for="nav-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </label>
+                <input type="checkbox" id="nav-input" class="nav-input" tabindex="-1" aria-hidden="true">
+                <ul class="nav-list">
+                    <li><a href="#section-intro">About</a></li>
+                    <li><a href="#section-city">Destination</a></li>
+                    <li><a href="#section-todo">Activities</a></li>
+                    <li><a href="#section-news">News</a></li>
+                    <li><a href="#section-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
             <section class="section-welcome">
                 <div class="welcome-wrapper">
                     <div class="welcome-typography">
@@ -99,9 +102,5 @@
                     </a>
                 </div>
             </section>
-        </body>
-    </main>
-
-    <footer>
-
-    </footer>
+        </main>
+    </body>
