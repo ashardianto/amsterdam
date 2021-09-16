@@ -145,6 +145,11 @@ body {
     letter-spacing: -0.03em;
 }
 
+.list-p {
+    font-size: 14px;
+    color: var(--darkblue);
+}
+
 /* MAIN */
 
 /*WELCOME SECTION*/
@@ -204,28 +209,118 @@ body {
 /*CITY SECTION*/
 
 .section-city {
+    position: relative;
     padding: 0px 24px;
-    text-align: center;
-    background-image: url(img/amsterdam-night.jpg);
+    /*background-image: url(img/amsterdam-night.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     top: 0;
     left: 0;
-    height: 568px;
-    width: 100%;
+}
+
+.city-content {
+    position: relative;
+
 }
 
 .city-caption {
     margin-bottom: 24px;
-    color: var(--turqoise);
+    color: var(--darkblue);
+    padding-left: 15px;
 }
 
 .city-caption, .culinary-caption > h2, h3 {
     padding-top: 26px;
 }
 
+.city-list {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.city-preview {
+    position: absolute;
+    z-index: 2;
+    bottom: 64px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.list-items {
+    border-bottom: 2px solid var(--darkred);
+}
+
+.list-item {
+    float: none;
+    width: 100%;
+    padding: 24px 0px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    color: var(--darkblue);
+}
+
+.citylist-left {
+    top: 0%;
+    padding-right: 24px;
+}
+
+.list-img {
+    border-radius: 7px;
+}
+
 /*SECTION ACTIVITIES*/
 
+.section-activity {
+    padding-top: 64px;
+    position: relative;
+    /*background-image: url(img/amsterdam-night.jpg);
+    background-size: cover;
+    background-position: center;*/
+    top: 0;
+    left: 0;
+}
+
+.activity-caption {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    color: var(--darkblue);
+}
+
+.activity-list {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.activity-preview {
+    position: absolute;
+    text-align: right;
+    z-index: 2;
+    top: 0;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    left: 100;
+    right: 0;
+    color: white;
+    font-size: 28px;
+}
+
+.activitylist-left {
+    top: 0%;
+    padding-right: 24px;
+}
+
+
+/*
 .section-activities {
     padding: 0px 24px;
     text-align: center;
@@ -246,7 +341,7 @@ body {
     padding-top: 74px;
 }
 
-/* SECTION CULINARY */
+/* SECTION CULINARY 
 
 .section-culinary {
     padding: 0px 24px;
@@ -268,7 +363,7 @@ body {
     padding-top: 24px;
 }
 
-/* NEWS SECTION */
+/* NEWS SECTION
 
 .section-news {
     padding: 0px 24px;
