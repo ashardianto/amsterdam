@@ -299,7 +299,7 @@ body {
     left: 0;
 }
 
-.activity-caption {
+.activity-caption {    
     display: flex;
     padding-right: 15px;
     padding-bottom: 24px;
@@ -307,6 +307,11 @@ body {
     text-align: right;
     justify-content: right;
     align-items: right;
+}
+
+.activity-caption > h2 {
+    border-top: 2px solid var(--darkred);
+    width: 60%;
 }
 
 .icon-right {
