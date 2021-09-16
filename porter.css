@@ -210,7 +210,6 @@ body {
 
 .section-city {
     position: relative;
-    padding: 0px 24px;
     /*background-image: url(img/amsterdam-night.jpg);
     background-size: cover;
     background-position: center;*/
@@ -269,10 +268,12 @@ body {
 .citylist-left {
     top: 0%;
     padding-right: 24px;
+    padding-left: 24px;
 }
 
 .list-img {
     border-radius: 7px;
+    padding-right: 15px;
 }
 
 /*SECTION ACTIVITIES*/
@@ -288,9 +289,10 @@ body {
 }
 
 .activity-caption {
-    padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 24px;
     color: var(--darkblue);
+    text-align: right;
 }
 
 .activity-list {
@@ -316,6 +318,12 @@ body {
 
 .activitylist-left {
     top: 0%;
+    padding-left: 15px;
+    padding-right: 24px;
+}
+
+.activitylist-right {
+    text-align: right;
     padding-right: 24px;
 }
 
