@@ -49,6 +49,17 @@ nav {
     background: black;
 }
 
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    margin-left: -24px;
+    text-align: center;
+}
+
 .nav label {
     color: white;
 }
@@ -65,6 +76,7 @@ nav {
 .nav .nav-input {
     display: none;
 }
+
 
 .nav .nav-input:checked ~ .nav-list {
     display: block;
