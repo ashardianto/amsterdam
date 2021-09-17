@@ -406,6 +406,23 @@ body {
     font-size: 28px;
 }
 
+/* NEWS SECTION */
+
+.section-news {
+    padding: 48px 24px 0px;
+    text-align: center;
+    height: 362px;
+}
+
+.news-caption {
+    border-top: 3px solid var(--darkred);
+    color: var(--darkblue);
+    padding-top: 24px;
+}
+
+.news-caption > h3 {
+    padding-top: 24px;
+}
 
 /*
 .section-activities {
@@ -452,13 +469,4 @@ body {
 
 /* NEWS SECTION
 
-.section-news {
-    padding: 0px 24px;
-    text-align: center;
-    height: 362px;
-}
 
-.news-caption {
-    color: var(--darkblue);
-    padding-top: 48px;
-}
