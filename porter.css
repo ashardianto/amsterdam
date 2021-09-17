@@ -290,6 +290,39 @@ body {
     border-radius: 7px;
 }
 
+.city-button {
+    position: absolute;
+    z-index: 2;
+    bottom: 26px;
+    margin: 0 auto;
+    left: 15px;
+    padding: 6px;
+    border-radius: 14px;
+    right: 0;
+    background-color: transparent;
+}
+
+a {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.list-button {
+    position: absolute;
+    margin: 0 auto;
+    left: 24px;
+    padding: 3px 10px;
+    border-radius: 14px;
+    right: 0;
+    bottom: 30px;
+    background-color: var(--darkblue);
+}
+
+.list-button > a {
+    font-size: 12px;
+    color: white;
+}
+
 /*SECTION ACTIVITIES*/
 
 .section-activity {
