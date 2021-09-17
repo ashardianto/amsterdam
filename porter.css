@@ -361,17 +361,16 @@ a {
 
 .activity-caption {    
     display: flex;
+    justify-content: flex-end;
     padding-right: 15px;
     padding-bottom: 24px;
     color: var(--darkblue);
-    text-align: right;
-    justify-content: right;
-    align-items: right;
 }
 
 .activity-caption > h2 {
     border-top: 2px solid var(--darkred);
     width: 60%;
+    text-align: right;
 }
 
 .icon-right {
