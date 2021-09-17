@@ -301,6 +301,7 @@ body {
 
 .list-img {
     border-radius: 7px;
+    object-fit: cover;
 }
 
 .city-button {
@@ -313,6 +314,7 @@ body {
     border-radius: 14px;
     right: 0;
     background-color: transparent;
+    -webkit-appearance: none
 }
 
 a {
@@ -328,6 +330,7 @@ a {
     border-radius: 14px;
     bottom: 30px;
     background-color: var(--darkblue);
+    -webkit-appearance: none
 }
 
 .list-button > a {
@@ -343,6 +346,7 @@ a {
     border-radius: 14px;
     bottom: 30px;
     background-color: var(--darkred);
+    -webkit-appearance: none
 }
 
 /*SECTION ACTIVITIES*/
@@ -385,6 +389,7 @@ a {
     padding: 6px;
     border-radius: 14px;    
     background-color: transparent;
+    -webkit-appearance: none
 }
 
 .activity-list {
