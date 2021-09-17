@@ -330,7 +330,7 @@ a {
     border-radius: 14px;
     bottom: 30px;
     background-color: var(--darkblue);
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 .list-button > a {
@@ -346,7 +346,7 @@ a {
     border-radius: 14px;
     bottom: 30px;
     background-color: var(--darkred);
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 /*SECTION ACTIVITIES*/
@@ -388,7 +388,7 @@ a {
     padding: 6px;
     border-radius: 14px;    
     background-color: transparent;
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 .activity-list {
