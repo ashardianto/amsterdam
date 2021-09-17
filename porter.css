@@ -326,7 +326,6 @@ a {
     left: 24px;
     padding: 3px 10px;
     border-radius: 14px;
-    right: 0;
     bottom: 30px;
     background-color: var(--darkblue);
 }
@@ -351,9 +350,6 @@ a {
 .section-activity {
     padding-top: 64px;
     position: relative;
-    /*background-image: url(img/amsterdam-night.jpg);
-    background-size: cover;
-    background-position: center;*/
     top: 0;
     left: 0;
     margin-bottom: 48px;
@@ -381,6 +377,7 @@ a {
 
 .activity-button {
     position: absolute;
+    width: auto;
     z-index: 2;
     bottom: 26px;
     margin: 0 auto;
@@ -456,6 +453,7 @@ a {
 
 .culinary-button {
     position: absolute;
+    width: auto;
     z-index: 2;
     left: 24px;
     top: 46%;
