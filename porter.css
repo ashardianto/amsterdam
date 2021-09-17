@@ -314,7 +314,7 @@ body {
     border-radius: 14px;
     right: 0;
     background-color: transparent;
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 a {
