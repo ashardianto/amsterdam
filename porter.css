@@ -268,18 +268,21 @@ body {
     color: var(--darkblue);
 }
 
-.citylist-left {
+.citylist-left,
+.culinarylist-left {
     top: 0%;
     padding-right: 24px;
     padding-left: 24px;
     margin-bottom: auto;
 }
 
-.citylist-left > h3 {
+.citylist-left > h3,
+.culinarylist-left > h3 {
     padding-top: 15px;
 }
 
-.citylist-right {
+.citylist-right,
+.culinarylist-right {
     padding-right: 24px;
 }
 
@@ -297,6 +300,7 @@ body {
     background-position: center;*/
     top: 0;
     left: 0;
+    margin-bottom: 48px;
 }
 
 .activity-caption {    
@@ -353,6 +357,53 @@ body {
 
 .activitylist-right > h3 {
     padding-top: 15px;
+}
+
+/* Culinary Section */
+
+.section-culinary {
+    position: relative;
+    /*background-image: url(img/amsterdam-night.jpg);
+    background-size: cover;
+    background-position: center;*/
+    top: 0;
+    left: 0;
+}
+
+.culinary-content {
+    position: relative;
+
+}
+
+.culinary-caption {
+    display: flex;   
+    margin-bottom: 16px;
+    color: var(--darkblue);
+    padding-left: 15px;
+}
+
+.culinary-caption > h2 {
+    border-top: 2px solid var(--darkred);
+    width: 60%;
+}
+
+.culinary-list {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.culinary-preview {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    color: white;
+}
+
+.culinary-preview > h3 {
+    font-size: 28px;
 }
 
 
