@@ -185,6 +185,20 @@ body {
     margin-bottom: 7px;
 }
 
+.welcome-button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 14px;
+    padding: 10px;
+    background-color: transparent;
+
+    
+}
+
 /*INTRO SECTION*/
 
 .section-intro {
@@ -373,8 +387,7 @@ a {
     margin: 0 auto;
     left: 38%;
     padding: 6px;
-    border-radius: 14px;
-    
+    border-radius: 14px;    
     background-color: transparent;
 }
 
@@ -442,6 +455,16 @@ a {
     width: 60%;
 }
 
+.culinary-button {
+    position: absolute;
+    z-index: 2;
+    left: 24px;
+    top: 46%;
+    padding: 8px;
+    border-radius: 14px;    
+    background-color: transparent;
+}
+
 .culinary-list {
     width: 100%;
     position: relative;
@@ -477,6 +500,13 @@ a {
 
 .news-caption > h3 {
     padding-top: 24px;
+}
+
+.news-button {
+    margin-top: 24px;
+    border-radius: 14px;
+    padding: 10px;
+    background-color: var(--darkred);
 }
 
 /*
