@@ -326,7 +326,7 @@ a {
     position: absolute;
     margin: 0 auto;
     left: 24px;
-    padding: 3px 10px;
+    padding: 3px 55px;
     border-radius: 14px;
     bottom: 30px;
     background-color: var(--darkblue);
@@ -342,7 +342,7 @@ a {
     position: absolute;
     margin: 0 auto;
     right: 24px;
-    padding: 3px 10px;
+    padding: 3px 55px;
     border-radius: 14px;
     bottom: 30px;
     background-color: var(--darkred);
@@ -413,12 +413,14 @@ a {
 
 .activitylist-left {
     top: 0%;
+    width: 100%;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .activitylist-right {
     text-align: right;
+    width: 100%;
     padding-right: 24px;
     margin-bottom: auto;
 }
@@ -460,8 +462,8 @@ a {
     width: auto;
     z-index: 2;
     left: 24px;
-    top: 46%;
-    padding: 8px;
+    top: 45%;
+    padding: 14px 26px;
     border-radius: 14px;    
     background-color: transparent;
 }
@@ -483,6 +485,10 @@ a {
 
 .culinary-preview > h3 {
     font-size: 28px;
+}
+
+.culinarylist-right {
+    padding-left: 24px;
 }
 
 /* NEWS SECTION */
