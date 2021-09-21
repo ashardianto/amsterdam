@@ -60,33 +60,35 @@ nav {
     text-align: center;
 }
 
-.nav label {
+.nav button {
     color: white;
 }
 
-.nav label {
+.nav button {
     height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
 }
 
-.nav .nav-input {
-    display: none;
-}
-
-
 .nav .nav-input:checked ~ .nav-list {
-    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }
   
 .nav-list {
     position: absolute;
     top: 50px;
     width: 100%;
-    display: none;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 200ms ease, transform 200ms ease;
+    pointer-events: none;
 }
   
 .nav-list a {
@@ -102,7 +104,7 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-    .nav label {
+    .nav button {
         display: none;
     }
 
